@@ -1,8 +1,29 @@
 aid: roli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roli.png
 name: roli
-description: roli is a company surfaced as a portfolio company of balderton-capital, index-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  ROLI (Luminary ROLI Ltd.) is a British music-technology company known for
+  expressive electronic instruments — the Seaboard, LUMI Keys keyboards, and the
+  modular BLOCKS system — together with companion software such as ROLI
+  Dashboard, ROLI Connect, Equator, and ROLI Learn. Its instruments pioneer MPE
+  (MIDI Polyphonic Expression) for per-note pitch, timbre, and dynamics control.
+  For developers, ROLI publishes first-party SDKs under the github.com/weareroli
+  organization — the C++ BLOCKS-SDK and roli_blocks_basics for building
+  applications that talk to BLOCKS hardware, and the archived mpejs library for
+  MPE MIDI in the browser. ROLI is backed by Balderton Capital and Index
+  Ventures. This profile was added to the API Evangelist network as a portfolio
+  lead and enriched with real developer, SDK, and domain-security artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/roli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Music
+- Music Technology
+- Musical Instruments
+- MIDI
+- MPE
+- SDK
+- Hardware
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://roli.com/
+- type: GitHubOrganization
+  url: https://github.com/weareroli
+- type: Documentation
+  url: https://support.roli.com/en/support/solutions/folders/36000099233
+- type: Support
+  url: https://support.roli.com/
+- type: TermsOfService
+  url: https://roli.com/us/delivery-and-returns/terms-of-service
+- type: PrivacyPolicy
+  url: https://roli.com/legal/privacy-policy
+- type: Packages
+  url: packages/roli-packages.yml
+- type: SDKs
+  url: packages/roli-packages.yml
+- type: DomainSecurity
+  url: security/roli-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

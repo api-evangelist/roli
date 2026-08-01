@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/weareroli
+notes: >-
+  ROLI publishes developer SDKs for its BLOCKS / Seaboard hardware as source
+  repositories under the github.com/weareroli organization rather than on public
+  package registries (npm / PyPI / Maven were probed and returned no first-party
+  ROLI package). The former developer portal at developer.roli.com no longer
+  resolves. These are the first-party client libraries developers build against.
+packages:
+  - language: cpp
+    registry: github
+    name: BLOCKS-SDK
+    url: https://github.com/weareroli/BLOCKS-SDK
+    install: git clone https://github.com/weareroli/BLOCKS-SDK
+    description: The BLOCKS software development kit for building applications that interact with ROLI BLOCKS hardware.
+    official: true
+  - language: cpp
+    registry: github
+    name: roli_blocks_basics
+    url: https://github.com/weareroli/roli_blocks_basics
+    install: git clone https://github.com/weareroli/roli_blocks_basics
+    description: C++ API module for applications which interact with ROLI BLOCKS (distributed with/for the JUCE framework).
+    official: true
+  - language: javascript
+    registry: github
+    name: mpejs
+    url: https://github.com/weareroli/mpejs
+    install: git clone https://github.com/weareroli/mpejs
+    description: "Next generation MIDI for the web — MPE (MIDI Polyphonic Expression) in the browser (archived)."
+    official: true
+    archived: true
